@@ -117,7 +117,7 @@ flex-wrap: wrap;
 #home{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
     height: 840px;
     justify-content: center;
     align-items: center;
