@@ -249,7 +249,7 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 600px) {
     #about {
-        padding: 40px 20px;
+        padding: 30px 15px;
     }
 }
 
@@ -439,6 +439,16 @@ flex-wrap: wrap;
     color: #4a5568;
     margin: 0;
     font-weight: 400;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    .intro-text {
+        font-size: 0.95rem;
+        line-height: 1.7;
+        text-align: left;
+    }
 }
 
 .intro-text strong{
@@ -665,7 +675,9 @@ flex-wrap: wrap;
     }
     
     .intro-text {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        text-align: left;
     }
     
     .biodata {
