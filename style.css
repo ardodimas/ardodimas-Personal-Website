@@ -83,12 +83,31 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 480px) {
     .navbar ul li a {
-        padding: 5px 8px;
-        font-size: 0.75rem;
+        padding: 4px 6px;
+        font-size: 0.65rem;
     }
     
     .navbar ul {
-        margin: 8px 0px;
+        margin: 5px 0px;
+    }
+    
+    .navbar ul li {
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .navbar ul li a {
+        padding: 3px 4px;
+        font-size: 0.6rem;
+    }
+    
+    .navbar ul {
+        margin: 3px 0px;
+    }
+    
+    .navbar ul li {
+        font-size: 0.6rem;
     }
 }
 .navbar ul li a:hover{
@@ -157,22 +176,23 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 480px) {
     #home {
-        height: 500px;
+        height: 400px;
     }
     
     #home::before {
-        height: 550px;
+        height: 450px;
     }
     
     .main {
-        top: 45%;
+        top: 50%;
         right: 50%;
         transform: translateX(50%);
+        width: 95%;
     }
     
     .headings {
-        font-size: 1.5rem;
-        margin: 15px 0px;
+        font-size: 1.3rem;
+        margin: 10px 0px;
     }
 }
 .aturbtn{
@@ -202,6 +222,13 @@ flex-wrap: wrap;
     .btn {
         padding: 6px 15px;
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .btn {
+        padding: 5px 10px;
+        font-size: 0.7rem;
     }
 }
 
