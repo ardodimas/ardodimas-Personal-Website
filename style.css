@@ -303,13 +303,15 @@ flex-wrap: wrap;
     backdrop-filter: blur(10px);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
     #pic {
         max-width: 100%;
-        padding: 20px;
-        gap: 20px;
+        padding: 15px;
+        gap: 15px;
+        flex-direction: column;
     }
 }
 
@@ -326,6 +328,15 @@ flex-wrap: wrap;
     overflow: hidden;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .image-wrapper {
+        width: 100%;
+        max-width: 300px;
+        height: 350px;
+        margin: 0 auto;
+    }
 }
 
 .image-wrapper:hover{
@@ -359,6 +370,14 @@ flex-wrap: wrap;
     padding: 0;
     flex: 1;
     gap: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    #intro {
+        gap: 15px;
+    }
 }
 
 .intro-header{
