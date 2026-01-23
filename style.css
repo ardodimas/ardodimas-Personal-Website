@@ -83,31 +83,16 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 480px) {
     .navbar ul li a {
-        padding: 4px 6px;
-        font-size: 0.65rem;
+        padding: 6px 8px;
+        font-size: 0.75rem;
     }
     
     .navbar ul {
-        margin: 5px 0px;
+        margin: 8px 0px;
     }
     
     .navbar ul li {
-        font-size: 0.65rem;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .navbar ul li a {
-        padding: 3px 4px;
-        font-size: 0.6rem;
-    }
-    
-    .navbar ul {
-        margin: 3px 0px;
-    }
-    
-    .navbar ul li {
-        font-size: 0.6rem;
+        font-size: 0.75rem;
     }
 }
 .navbar ul li a:hover{
@@ -220,15 +205,14 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 480px) {
     .btn {
-        padding: 8px 18px;
-        font-size: 0.85rem;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        margin: 8px 5px;
     }
-}
-
-@media screen and (max-width: 380px) {
-    .btn {
-        padding: 6px 12px;
-        font-size: 0.75rem;
+    
+    .aturbtn {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
