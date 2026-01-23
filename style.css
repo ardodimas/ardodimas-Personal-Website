@@ -176,23 +176,23 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 480px) {
     #home {
-        height: 400px;
+        height: 500px;
     }
     
     #home::before {
-        height: 450px;
+        height: 550px;
     }
     
     .main {
-        top: 50%;
+        top: 45%;
         right: 50%;
         transform: translateX(50%);
-        width: 95%;
+        width: 90%;
     }
     
     .headings {
-        font-size: 1.3rem;
-        margin: 10px 0px;
+        font-size: 1.6rem;
+        margin: 15px 0px;
     }
 }
 .aturbtn{
@@ -220,15 +220,15 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 480px) {
     .btn {
-        padding: 6px 15px;
-        font-size: 0.8rem;
+        padding: 8px 18px;
+        font-size: 0.85rem;
     }
 }
 
 @media screen and (max-width: 380px) {
     .btn {
-        padding: 5px 10px;
-        font-size: 0.7rem;
+        padding: 6px 12px;
+        font-size: 0.75rem;
     }
 }
 
