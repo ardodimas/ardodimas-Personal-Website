@@ -161,23 +161,23 @@ flex-wrap: wrap;
 
 @media screen and (max-width: 600px) {
     #home {
-        height: 550px;
+        height: 700px;
     }
     
     #home::before {
-        height: 600px;
+        height: 750px;
     }
     
     .main {
-        top: 40%;
+        top: 45%;
         right: 50%;
         transform: translateX(50%);
         width: 90%;
     }
     
     .headings {
-        font-size: 1.8rem;
-        margin: 15px 0px;
+        font-size: 2rem;
+        margin: 20px 0px;
     }
 }
 .aturbtn{
